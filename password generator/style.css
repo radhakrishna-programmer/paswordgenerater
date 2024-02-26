@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    margin:100px;
+    margin-bottom: 50px;
+    padding: 50px;
+    background:#fff;
+    color: black;
+    width:600px;
+    border-radius: 20px;
+} 
+body{
+    background: linear-gradient(180deg, #823182,#342356);
+    height: 100vh;
+    width: auto;
+}
+h1 span{
+    font-size: 50px;
+    color: rgb(100,45,120);
+    text-decoration: underline;
+}
+.passwordBox{
+    margin-top: 20px;
+    border-radius: 10px;
+    display: inline;
+    border-radius: 20px;
+    
+}
+
+.passwordBox input{
+    border: 0;
+    font-size: 35px;
+    outline: 0;
+    color: black;
+
+}
+
+.passwordBox img{
+    width: 30px;
+}
+
+.generate button{
+    margin-left: 100px;
+    margin-top: -100px;
+    color: #fff;
+    width:fit-content;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    background-color:transparent;
+    border: none;
+    font-size: 20px;
+}
+.generate img{
+    width:20px;
+}
